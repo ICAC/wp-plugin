@@ -14,3 +14,5 @@ defined('ABSPATH') or die("external access denied");
 define( 'ICAC_BASE', dirname( __FILE__ ) );
 
 require( ICAC_BASE . '/auth.php' );
+
+require( ICAC_BASE . '/member-importer.php' );
